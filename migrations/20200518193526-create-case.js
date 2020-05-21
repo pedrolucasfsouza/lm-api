@@ -8,23 +8,22 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.INTEGER
       },
-      UserId : {
+      name: {
+        type: Sequelize.STRING
+      },
+      email: {
+        type: Sequelize.STRING
+      },
+      phone: {
+        type: Sequelize.STRING
+      },
+      description: {
+        type: Sequelize.TEXT
+      },
+      status: {
         type: Sequelize.INTEGER
       },
-
-      description: {
-        type: Sequelize.STRING
-      },
-      cidade: {
-        type: Sequelize.STRING
-      },
-      estado: {
-        type: Sequelize.STRING
-      },
-      status:{
-        type: Sequelize.STRING
-      },
-      img: {
+      multa: {
         type: Sequelize.STRING
       },
       createdAt: {
