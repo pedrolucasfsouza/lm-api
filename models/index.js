@@ -15,6 +15,8 @@ if (config.use_env_variable) {
   sequelize = new Sequelize(config.database, config.username, config.password, config);
 }
 
+//const sequelize = new Sequelize(proces.env.MYSQL_DATABASE, proces.env.MYSQL_USERNAME, proces.env.MYSQL_PASSWORD, proces.env.MYSQL_HOST{logging: console.log, debug: console.log});
+
 fs
   .readdirSync(__dirname)
   .filter(file => {

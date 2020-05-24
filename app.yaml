@@ -1,1 +1,5 @@
-runtime: nodejs10
+runtime: nodejs
+env: flex
+
+env_variables:
+  GCLOUD_STORAGE_BUCKET: limpa-multas-api123.appspot.com

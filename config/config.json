@@ -17,10 +17,10 @@
     "operatorsAliases": false
   },
   "production": {
-    "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
+    "username": "admin",
+    "password": "5453574411",
+    "database": "mysql",
+    "host": "34.86.44.69",
     "dialect": "mysql",
     "operatorsAliases": false
   }
