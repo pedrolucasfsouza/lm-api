@@ -83,4 +83,14 @@ routes.get('/', async (req, res) => {
 });
 
 
+
+routes.get('/teste', async (req, res) => {
+    const cases = await Case.findAll({
+      where: { status: '0' },
+    })
+    res.send(cases);
+  
+});
+
+
 module.exports = routes;

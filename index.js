@@ -15,16 +15,6 @@ app.use(morgan('dev'));
 app.use(require('./routes'));
 
 
-const arr = [1, 2, 4, 500, 706, 402, 504, 2, 4, 43]
-
-const reducer = (accumulator, currentValue) => {
-  if (currentValue < 3){
-    accumulator + currentValue
-  }
-  else return 5000
-}
-
-console.log(arr.reduce(reducer))
 
 
 app.listen(3000, (req, res) => {
